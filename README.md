@@ -2,10 +2,11 @@
 
 This is a solution to the [Tip calculator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/tip-calculator-app-ugJNGbJUX).
 
-<!-- ## Table of contents
+## Table of contents
 
 -   [Links](#links)
 -   [Built with](#built-with)
+-   [What I learned](#what-i-learned)
 -   [Author](#author)
 -   [Screenshot](#screenshot)
 
@@ -21,6 +22,11 @@ This is a solution to the [Tip calculator app challenge on Frontend Mentor](http
 -   Flexbox and CSS Grid
 -   Mobile-first workflow
 
+## What I learned
+
+-   How to style the cursor with color
+-   focusout js event
+
 ## Author
 
 -   [GitHub](https://github.com/ionStici)
@@ -29,7 +35,7 @@ This is a solution to the [Tip calculator app challenge on Frontend Mentor](http
 
 ## Screenshot
 
-![](./assets/screenshot.png) -->
+![](./src/images//screenshot.png)
 
 <!-- ### Primary
 

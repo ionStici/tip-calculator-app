@@ -60,6 +60,7 @@ body {
     background-color: #00474b;
     padding: 37px 22px 24px 24px;
     border-radius: 15px;
+    box-shadow: 0 32px 43px rgba(79, 165, 175, 0.2007);
 }
 
 @media only screen and (min-width: 500px) {
