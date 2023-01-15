@@ -99,6 +99,8 @@ body {
     font-size: 24px;
     line-height: 36px;
     color: #00474b;
+    border: 2px solid transparent;
+    transition: border 0.1s;
 }
 
 #calc__bill__input::placeholder {
@@ -107,13 +109,26 @@ body {
 
 #calc__bill__input:focus {
     outline: none;
-    box-shadow: 0 0 5px rgba(79, 165, 175, 0.5);
+    border: 2px solid #26c2ae;
+    caret-color: #26c2ae;
 }
 
 .calc__bill__icon {
     position: absolute;
     left: 20px;
     bottom: 16px;
+}
+
+.calc__bill-message {
+    position: absolute;
+    right: 0;
+
+    font-size: 16px;
+    line-height: 24px;
+    color: #e17457;
+
+    transition: opacity 0.1s;
+    opacity: 0;
 }
 
 /*  */
@@ -141,6 +156,13 @@ body {
     border-radius: 5px;
     background-color: #00474b;
     border: none;
+    cursor: pointer;
+    transition: color 0.15s, background-color 0.15s;
+}
+
+.calc__tip-btn:hover {
+    background-color: #9fe8df;
+    color: #00474b;
 }
 
 .calc__tip-btn--active {
@@ -159,6 +181,8 @@ body {
     background-color: #f3f9fa;
     border: none;
     border-radius: 5px;
+    border: 2px solid transparent;
+    transition: border 0.1s;
 }
 
 .calc__tip-input::placeholder {
@@ -167,7 +191,8 @@ body {
 
 .calc__tip-input:focus {
     outline: none;
-    box-shadow: 0 0 5px rgba(79, 165, 175, 0.5);
+    border: 2px solid #26c2ae;
+    caret-color: #26c2ae;
 }
 
 /*  */
@@ -194,6 +219,8 @@ body {
     font-size: 24px;
     line-height: 36px;
     color: #00474b;
+    border: 2px solid transparent;
+    transition: border 0.1s;
 }
 
 #calc__num-input::placeholder {
@@ -202,13 +229,25 @@ body {
 
 #calc__num-input:focus {
     outline: none;
-    box-shadow: 0 0 5px rgba(79, 165, 175, 0.5);
+    border: 2px solid #26c2ae;
+    caret-color: #26c2ae;
 }
 
 .calc__num-icon {
     position: absolute;
     left: 17px;
     bottom: 16px;
+}
+
+.calc__num-message {
+    font-size: 16px;
+    line-height: 24px;
+    color: #e17457;
+    opacity: 0;
+    transition: opacity 0.1s;
+
+    position: absolute;
+    right: 0;
 }
 
 /*  */
@@ -257,6 +296,17 @@ body {
     border: none;
     border-radius: 5px;
     background-color: #26c2ae;
+    cursor: pointer;
+
+    transition: background-color 0.15s;
+}
+
+:root {
+    --hover: #9fe8df;
+}
+
+.calc__result-btn:hover {
+    background-color: var(--hover);
 }
 
 .calc__result-btn--reset {
