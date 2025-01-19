@@ -1,19 +1,23 @@
 # Tip calculator app solution
 
-This is a solution to the [Tip calculator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/tip-calculator-app-ugJNGbJUX).
+This is a solution to the [Tip calculator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/tip-calculator-app-ugJNGbJUX). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-## Table of contents
+This project was built using vanilla HTML, CSS, and JavaScript, showcasing a simple yet functional user interface for calculating the tip and total amount per person.
 
--   [Links](#links)
--   [Built with](#built-with)
--   [What I learned](#what-i-learned)
--   [Author](#author)
--   [Screenshot](#screenshot)
+| [Live Demo URL](https://ionstici.github.io/tip-calculator-app) | [Frontend Mentor](https://www.frontendmentor.io/solutions/tip-calculator-app-Q--9vh5y4U) |
+| -------------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
 
-## Links
+## Screenshot
 
--   [Solution URL](https://github.com/ionStici/tip-calculator-app-fem)
--   [Live Site URL](https://ionstici.github.io/tip-calculator-app-fem)
+![](./src/images//screenshot.png)
+
+## Features
+
+-   **Bill Input:** Enter the total bill amount.
+-   **Tip Selection:** Choose a tip percentage from pre-defined options (5%, 10%, 15%, 25%, 50%) or enter a custom percentage.
+    Number of People: Input the number of people to split the bill between.
+-   **Result Calculation:** Automatically calculates and displays the tip amount per person and the total amount per person.
+-   **Reset Button:** Allows you to reset all inputs and calculations.
 
 ## Built with
 
@@ -21,40 +25,9 @@ This is a solution to the [Tip calculator app challenge on Frontend Mentor](http
 -   CSS custom properties
 -   Flexbox and CSS Grid
 -   Mobile-first workflow
+-   JavaScript (ES6)
 
 ## What I learned
 
 -   How to style the cursor with color
--   focusout js event
-
-## Author
-
--   [GitHub](https://github.com/ionStici)
--   [Frontend Mentor](https://www.frontendmentor.io/profile/ionStici)
--   [Twitter](https://twitter.com/ionStici_)
-
-## Screenshot
-
-![](./src/images//screenshot.png)
-
-<!-- ### Primary
-
--   Strong cyan: hsl(172, 67%, 45%)
-
-### Neutral
-
--   Very dark cyan: hsl(183, 100%, 15%)
--   Dark grayish cyan: hsl(186, 14%, 43%)
--   Grayish cyan: hsl(184, 14%, 56%)
--   Light grayish cyan: hsl(185, 41%, 84%)
--   Very light grayish cyan: hsl(189, 41%, 97%)
--   White: hsl(0, 0%, 100%)
-
-### Body Copy
-
--   Font size (form inputs): 24px
-
-### Font
-
--   Family: [Space Mono](https://fonts.google.com/specimen/Space+Mono)
--   Weights: 700 -->
+-   About the `"focusout"` JavaScript event
